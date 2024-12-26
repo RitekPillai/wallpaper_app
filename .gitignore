@@ -15,7 +15,7 @@ migrate_working_dir/
 *.ipr
 *.iws
 .idea/
-
+apikey.dart
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
 # is commented out by default.
@@ -30,12 +30,14 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+apikey.dart
 
 # Symbolication related
 app.*.symbols
 
 # Obfuscation related
 app.*.map.json
+apikey
 
 # Android Studio will place build artifacts here
 /android/app/debug
